@@ -1,19 +1,43 @@
 nav {
     position: fixed;
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
     top: 0;
     right: 0;
+    min-height: 50px;
     width: 100%;
     background-color: salmon;
 }
 
 #nav-list {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     list-style: none;
+}
+
+.nav-item {
+    margin: 0 20px;
 }
 
 a {
     color: #000;
     text-decoration: none;
+}
+
+main {
+    position: absolute;
+    top: 50px;
+    /* width: 100%; */
+}
+
+section {
+    border: solid 2px #000;
+    margin: 5px;
+    padding: 5px;
+}
+
+#about {
+    /* margin-top: 50px; */
 }
