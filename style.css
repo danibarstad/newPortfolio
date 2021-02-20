@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 * {
+    font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -53,6 +56,7 @@ a:hover {
 
 .projects {
     padding-top: 1rem;
+    padding-bottom: 3rem;
     background: cornflowerblue;
 }
 
@@ -87,4 +91,18 @@ a:hover {
 .proj-links {
     position: absolute;
     bottom: 0px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    background: coral;
+}
+
+#cont-header {
+    margin-bottom: 1rem;
 }
