@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style: none;
 }
@@ -45,4 +49,42 @@ a:hover {
     width: 100%;
     height: 100vh;
     background: cornsilk;
+}
+
+.projects {
+    padding-top: 1rem;
+    background: cornflowerblue;
+}
+
+.projects > h1 {
+    text-align: center;
+    margin: 0 auto 4rem auto;
+    max-width: 80%;
+    border-bottom: 0.2rem solid #000;
+}
+
+.proj-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.proj-header {
+    padding: 10px 10px;
+    background: cornsilk
+}
+
+.proj-item {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: solid 2px #000;
+}
+
+.proj-links {
+    position: absolute;
+    bottom: 0px;
 }
