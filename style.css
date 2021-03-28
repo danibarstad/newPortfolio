@@ -31,7 +31,7 @@ a:hover {
     left: 0;
     width: 100%;
     background-color: salmon;
-    z-index: 1;
+    /* z-index: 0; */
 }
 
 .navlist {
@@ -70,8 +70,7 @@ a:hover {
 .proj-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     text-align: center;
 }
@@ -83,8 +82,9 @@ a:hover {
 
 .proj-item {
     position: relative;
-    width: 300px;
-    height: 300px;
+    margin: 1rem;
+    width: 23em;
+    min-height: 23rem;
     border: solid 2px #000;
 }
 
@@ -105,4 +105,10 @@ a:hover {
 
 #cont-header {
     margin-bottom: 1rem;
+}
+
+.icons {
+    margin: 1rem;
+    height: 3rem;
+    width: 3rem;
 }
