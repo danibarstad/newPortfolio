@@ -88,6 +88,14 @@ a:hover {
     border: solid 2px #000;
 }
 
+.proj-item:hover {
+    box-shadow: 5px 5px;
+}
+
+.proj-tech {
+    font-style: italic;
+}
+
 .proj-links {
     position: absolute;
     bottom: 0px;
