@@ -21,6 +21,7 @@ a, a:visited {
 
 a:hover {
     background-color: azure;
+    border-radius: 10px;
 }
 
 .navbar {
@@ -77,7 +78,8 @@ a:hover {
 
 .proj-header {
     padding: 10px 10px;
-    background: cornsilk
+    background: cornsilk;
+    border-radius: 10px 10px 0 0;
 }
 
 .proj-item {
@@ -85,7 +87,8 @@ a:hover {
     margin: 1rem;
     width: 23em;
     min-height: 23rem;
-    border: solid 2px #000;
+    border: solid 1px #000;
+    border-radius: 10px;
 }
 
 .proj-item:hover {
